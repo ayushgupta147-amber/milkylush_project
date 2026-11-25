@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MilkyLush — fresh, local dairy goodness from our farm to your table.">
+  <meta name="theme-color" content="#ffbd3b">
+  <title>MilkyLush</title>
+  <link rel="icon" href="images/Screenshot__12_-removebg-preview.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="hero-shell" id="home">
+    <div class="topbar">
+      <div class="topbar-inner">
+        <div class="top-contact"><a href="tel:1234567890"><i class="bi bi-telephone-inbound-fill"></i> 123 456
+            7890</a><a href="mailto:info@website.com"><i class="bi bi-envelope"></i> info@website.com</a></div>
+        <div class="socials"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#"
+            aria-label="X"><i class="bi bi-twitter-x"></i></a><a href="#" aria-label="LinkedIn"><i
+              class="bi bi-linkedin"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="nav-inner"><a class="brand" href="#home"><img src="images/logo%20(1).svg" alt="MilkyLush home"></a>
+        <button class="menu-toggle" aria-label="Open navigation"
+          aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="has-sub"><button class="sub-toggle">Templates <i class="bi bi-chevron-down"></i></button>
+              <ul class="dropdown">
+                <li><a href="#about">Page Full Width</a></li>
+                <li><a href="#about">Page Left Sidebar</a></li>
+                <li><a href="#about">Page Right Sidebar</a></li>
+                <li class="has-sub nested"><button class="sub-toggle">No Sidebar <i
+                      class="bi bi-chevron-right"></i></button>
+                  <ul class="dropdown nested-menu">
+                    <li class="has-sub nested"><button class="sub-toggle">Drop down Level 1 <i
+                          class="bi bi-chevron-right"></i></button>
+                      <ul class="dropdown nested-menu">
+                        <li><a href="#about">Level 2</a></li>
+                        <li><a href="#about">Level 3</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#journal">Blog</a></li>
+            <li class="has-sub"><button class="sub-toggle">Blog <i class="bi bi-chevron-down"></i></button>
+              <ul class="dropdown">
+                <li><a href="#journal">Blog Full Width</a></li>
+                <li><a href="#journal">Blog Left Sidebar</a></li>
+                <li><a href="#journal">Blog No Sidebar</a></li>
+                <li><a href="#journal">Blog Right Sidebar</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-tools"><button class="tool-btn search-open" aria-label="Open search"><i
+              class="bi bi-search"></i></button><button class="tool-btn cart-open" aria-label="Open cart"><i
+              class="bi bi-cart4"></i><span class="cart-count">0</span></button></div>
+      </div>
+    </header>
+    <section class="hero-slide" aria-label="Featured dairy products">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <p class="hero-kicker">FRESH • LOCAL • DELIVERED</p>
+        <h1>Drink Raw Milk &amp;<br>Eat Raw Cheese</h1>
+        <p class="hero-description">Pure goodness from our farm<br>to your family table.</p><a
+          class="button button-white" href="#products">Discover More <i class="bi bi-arrow-up-right"></i></a>
+      </div>
+      <div class="hero-controls"><button class="hero-dot active" data-slide="0"
+          aria-label="Show slide one"></button><button class="hero-dot" data-slide="1"
+          aria-label="Show slide two"></button><button class="hero-dot" data-slide="2"
+          aria-label="Show slide three"></button></div><button class="slide-arrow prev" aria-label="Previous slide"><i
+          class="bi bi-chevron-left"></i></button><button class="slide-arrow next" aria-label="Next slide"><i
+          class="bi bi-chevron-right"></i></button>
+    </section>
+  </div>
+  <main>
+    <section class="promise-strip" aria-label="Our promises">
+      <div><i class="bi bi-flower1"></i><span><b>100% Farm Fresh</b><small>From our family farm</small></span></div>
+      <div><i class="bi bi-heart-pulse"></i><span><b>Made with Care</b><small>Quality in every batch</small></span>
+      </div>
+      <div><i class="bi bi-truck"></i><span><b>Fresh Delivery</b><small>Goodness at your door</small></span></div>
+      <div><i class="bi bi-recycle"></i><span><b>Earth Friendly</b><small>Thoughtful farming</small></span></div>
+    </section>
+    <section class="milk-section" id="products">
+      <div class="section-title">
+        <p class="eyebrow">PURE GOODNESS IN EVERY DROP</p>
+        <h2>Milk and more!<br>fresh. local. delivered.</h2>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="#contact"><img src="images/milkylush_category-image1.jpg"
+            alt="Fresh farm butter">
+          <h3>Butter</h3><span>Discover more <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+        <a class="category-card" href="#contact"><img src="images/milkylush_category-image2.jpg" alt="Fresh buttermilk">
+          <h3>Butter Milk</h3><span>Discover more <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+        <a class="category-card" href="#contact"><img src="images/milkylush_category-image3.jpg" alt="Farmhouse cheese">
+          <h3>Cheese</h3><span>Discover more <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+        <a class="category-card" href="#contact"><img src="images/milkylush_category-image4.jpg"
+            alt="Fresh condensed milk">
+          <h3>Condensed Milk</h3><span>Discover more <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+      </div>
+    </section>
+    <section class="welcome-section" id="about">
+      <div class="welcome-inner">
+        <div class="welcome-art"><img class="welcome-bg" src="images/welcome_image2.jpg"
+            alt="Farmer caring for a dairy cow"><img class="welcome-product" src="images/welcome_image1.png"
+            alt="Fresh milk bottle"><span class="art-stamp">FARM<br>FRESH</span></div>
+        <div class="welcome-copy">
+          <p class="eyebrow">Welcome to Milkylush</p>
+          <h2>Our Farm Creates the Best Dairy Products</h2>
+          <p class="copy">Aenean trices nisl nunc, pulvinar sodales elit varius non. Namet pulvinar libero, fringilla
+            auctor leo. Phasellus cursus fringilla arcu sed placerat. Donec at rhoncus risus. Cras vitae tellus in
+            turpis scelerisque porttitor. Fusce id eros nec neque.</p>
+          <ul class="benefits">
+            <li><i class="bi bi-check-lg"></i> Establishing raw milk guidelines &amp; Standards</li>
+            <li><i class="bi bi-check-lg"></i> Improving consumer access &amp; producer support</li>
+            <li><i class="bi bi-check-lg"></i> Farmer training &amp; mentoring nationally</li>
+          </ul><a class="button button-green" href="#gallery">Discover More <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="farm-section" id="services">
+      <div class="section-title">
+        <p class="eyebrow">Farm Services</p>
+        <h2>The Eco-Friendly Practices<br>on Our Cow Farm</h2>
+      </div>
+      <div class="service-grid"><a class="service-card service-one" href="#contact">
+          <div>
+            <h3>Fresh Milk</h3><i class="bi bi-arrow-up-right"></i>
+          </div>
+        </a><a class="service-card service-two" href="#contact">
+          <div>
+            <h3>Blue Cheeses</h3><i class="bi bi-arrow-up-right"></i>
+          </div>
+        </a><a class="service-card service-three" href="#contact">
+          <div>
+            <h3>Dairy Products</h3><i class="bi bi-arrow-up-right"></i>
+          </div>
+        </a></div>
+    </section>
+    <section class="shop-section" id="shop">
+      <div class="section-title">
+        <p class="eyebrow">Straight from our dairy</p>
+        <h2>Farm favourites for<br>your everyday table</h2>
+        <p class="section-subtitle">Simple, wholesome dairy staples made with care and delivered fresh.</p>
+      </div>
+      <div class="shop-grid">
+        <article class="shop-card">
+          <div class="shop-image"><img src="images/butter.jpg" alt="Creamy farm fresh butter"><span
+              class="shop-tag">Farm favourite</span></div>
+          <div class="shop-info">
+            <div>
+              <h3>Golden Farm Butter</h3>
+              <p>Rich, creamy and beautifully smooth</p>
+            </div><strong>Fresh daily</strong><a href="#contact" aria-label="Enquire about Golden Farm Butter"><i
+                class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </article>
+        <article class="shop-card">
+          <div class="shop-image"><img src="images/cheese.jpg" alt="Artisan farmhouse cheese"><span
+              class="shop-tag">Hand crafted</span></div>
+          <div class="shop-info">
+            <div>
+              <h3>Farmhouse Cheese</h3>
+              <p>A delicious addition to every meal</p>
+            </div><strong>Fresh daily</strong><a href="#contact" aria-label="Enquire about Farmhouse Cheese"><i
+                class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </article>
+        <article class="shop-card">
+          <div class="shop-image"><img src="images/yogurt.jpg" alt="Fresh creamy yogurt"><span class="shop-tag">Daily
+              goodness</span></div>
+          <div class="shop-info">
+            <div>
+              <h3>Natural Yogurt</h3>
+              <p>Cool, creamy and full of flavour</p>
+            </div><strong>Fresh daily</strong><a href="#contact" aria-label="Enquire about Natural Yogurt"><i
+                class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </article>
+        <article class="shop-card">
+          <div class="shop-image"><img src="images/milk-bottle.jpg" alt="Fresh milk bottle"><span
+              class="shop-tag">Everyday essential</span></div>
+          <div class="shop-info">
+            <div>
+              <h3>Fresh Whole Milk</h3>
+              <p>A wholesome classic for the family</p>
+            </div><strong>Fresh daily</strong><a href="#contact" aria-label="Enquire about Fresh Whole Milk"><i
+                class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <a class="button button-green shop-cta" href="#contact">Ask about our products <i
+          class="bi bi-arrow-up-right"></i></a>
+    </section>
+    <section class="numbers-section">
+      <div class="numbers-inner">
+        <div><strong>100%</strong><span>Farm-fresh focus</span></div>
+        <div><strong>01</strong><span>Promise: quality first</span></div>
+        <div><strong>365</strong><span>Days of dairy goodness</span></div>
+        <div><strong>∞</strong><span>Love for our animals</span></div>
+      </div>
+    </section>
+    <section class="process-section">
+      <div class="process-photo"><img src="images/milking.jpg" alt="Careful milking at the dairy farm"></div>
+      <div class="process-copy">
+        <p class="eyebrow">From pasture to your plate</p>
+        <h2>Good dairy begins with good care</h2>
+        <p class="copy">Every day at the farm starts with the same simple idea: healthy animals, thoughtful practices
+          and careful handling make a difference. We pay attention to every step so that freshness remains at the heart
+          of what we do.</p>
+        <div class="process-steps">
+          <div><span>01</span>
+            <p><b>Care for our herd</b><small>Comfortable spaces, clean water and attentive care.</small></p>
+          </div>
+          <div><span>02</span>
+            <p><b>Prepare with care</b><small>Careful handling and quality checks at every stage.</small></p>
+          </div>
+          <div><span>03</span>
+            <p><b>Share the goodness</b><small>Fresh dairy favourites ready for your family table.</small></p>
+          </div>
+        </div><a class="button button-green" href="#about">Our farm story <i class="bi bi-arrow-up-right"></i></a>
+      </div>
+    </section>
+    <section class="values-section">
+      <div class="section-title">
+        <p class="eyebrow">The MilkyLush difference</p>
+        <h2>Little things that make<br>a wholesome difference</h2>
+      </div>
+      <div class="values-grid">
+        <article><i class="bi bi-sun"></i>
+          <h3>Rooted in nature</h3>
+          <p>We value open spaces, fresh air and a close connection to the land.</p>
+        </article>
+        <article><i class="bi bi-shield-check"></i>
+          <h3>Quality minded</h3>
+          <p>We believe in thoughtful processes and careful attention to detail.</p>
+        </article>
+        <article><i class="bi bi-people"></i>
+          <h3>Family at heart</h3>
+          <p>Our work is guided by the families and communities we serve.</p>
+        </article>
+        <article><i class="bi bi-leaf"></i>
+          <h3>Mindful choices</h3>
+          <p>We keep looking for practical ways to care for our farm and planet.</p>
+        </article>
+      </div>
+    </section>
+    <section class="about-section" id="farm-story">
+      <div class="about-grid">
+        <div class="about-intro">
+          <p class="eyebrow">About Dairy Farm</p>
+          <h2>Know About Our Farm And History</h2>
+          <p class="copy">Aenean trices nisl nunc, pulvinar sodales elit varius non. Namet pulvinar libero, fringilla
+            auctor leo. Phasellus cursus fringilla arcu sed placerat. Donec at rhoncus risus. Cras vitae tellus in
+            turpis scelerisque porttitor. Fusce id eros nec neque.</p><img class="about-small"
+            src="images/about_image1.jpg" alt="Cows grazing on a green pasture">
+        </div>
+        <div class="about-photo about-photo-main"><img src="images/about_image2.jpg" alt="A farmer caring for a cow">
+          <div class="photo-badge"><img src="images/farm-badge.svg" alt="100 percent farm fresh"></div>
+        </div>
+        <div class="about-photo about-photo-side"><img src="images/about_image3.jpg" alt="Sunlit dairy barn"></div>
+      </div>
+    </section>
+    <section class="future-section">
+      <div class="future-overlay"></div>
+      <div class="future-content">
+        <p class="eyebrow light">FRESH FROM OUR FARM</p>
+        <h2>Dairy Farm Matters<br>To The Future</h2>
+        <div class="future-buttons"><a class="button button-white" href="#services">Our Dairy Services</a><a
+            class="button button-yellow" href="#products">Dairy Products</a></div>
+      </div>
+    </section>
+    <section class="farm-gallery" id="gallery" aria-label="Life at our dairy farm">
+      <div class="section-title">
+        <p class="eyebrow">A little look around</p>
+        <h2>Life is lovely down on the farm</h2>
+      </div>
+      <div class="gallery-grid"><img src="images/cows-pasture.jpg" alt="Cows grazing in a green pasture"><img
+          src="images/farm-sunset.jpg" alt="Golden evening over the farm"><img src="images/pouring-milk.jpg"
+          alt="Fresh milk being poured"><img src="images/barn.jpg" alt="The peaceful dairy barn"><img
+          src="images/dairy-board.jpg" alt="Fresh dairy products ready to enjoy"></div>
+    </section>
+    <section class="testimonial-section">
+      <div class="testimonial-inner">
+        <p class="eyebrow light">Kind words from our community</p>
+        <div class="quote-mark">“</div>
+        <blockquote>“You can feel the care behind every little detail. The freshness, the flavour and the love for the
+          farm make it a joy to bring these products home.”</blockquote>
+        <div class="quote-person"><span class="quote-avatar">M</span><span><b>A happy farm friend</b><small>Part of the
+              MilkyLush community</small></span></div>
+        <div class="quote-dots"><i></i><i></i><i></i></div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <div class="faq-intro">
+        <p class="eyebrow">A few things you may wonder</p>
+        <h2>Questions from our<br>farm friends</h2>
+        <p class="copy">Want to know more about our farm, products or delivery? Here are a few helpful answers.</p><a
+          class="button button-green" href="#contact">Talk to our team <i class="bi bi-arrow-up-right"></i></a>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary>Where do your dairy products come from?<i class="bi bi-plus-lg"></i></summary>
+          <p>Our story starts on the farm, with a focus on animal care, thoughtful handling and quality at every step.
+          </p>
+        </details>
+        <details>
+          <summary>How should I store fresh dairy products?<i class="bi bi-plus-lg"></i></summary>
+          <p>Keep dairy products refrigerated and follow the storage guidance on the product packaging.</p>
+        </details>
+        <details>
+          <summary>Do you offer local delivery?<i class="bi bi-plus-lg"></i></summary>
+          <p>Delivery options depend on your area. Get in touch and our team can help you with availability.</p>
+        </details>
+        <details>
+          <summary>How can I learn more about your products?<i class="bi bi-plus-lg"></i></summary>
+          <p>Send us a message through the contact section and we will be happy to help with product details.</p>
+        </details>
+      </div>
+    </section>
+    <section class="visit-cta">
+      <div>
+        <p class="eyebrow light">Come say hello</p>
+        <h2>There is always room<br>for a little more goodness.</h2>
+      </div><a class="button button-white" href="#contact">Get in touch <i class="bi bi-arrow-up-right"></i></a>
+    </section>
+    <section class="journal-section" id="journal">
+      <div class="section-title">
+        <p class="eyebrow">From our farm journal</p>
+        <h2>Stories of Freshness &amp; Care</h2>
+      </div>
+      <div class="journal-grid">
+        <article><img src="images/farm-pasture.jpg" alt="Dairy farm landscape">
+          <div><span>OUR FARM</span>
+            <h3>Goodness begins at the source</h3><a href="#about">Read More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+        <article><img src="images/farmer-cow.jpg" alt="Farmer with a cow">
+          <div><span>OUR PROMISE</span>
+            <h3>Care in every little detail</h3><a href="#about">Read More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+        <article><img src="images/dairy-board.jpg" alt="A selection of dairy products">
+          <div><span>FRESH IDEAS</span>
+            <h3>Enjoy the taste of farm freshness</h3><a href="#products">Read More <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <div>
+          <p class="eyebrow">Stay connected</p>
+          <h2>Fresh news from our farm</h2>
+          <p>Join our newsletter for updates and a little farm-fresh inspiration.</p>
+        </div>
+        <form class="newsletter-form"><label class="sr-only" for="email">Email address</label><input id="email"
+            type="email" placeholder="Enter your email address" required><button class="button button-green"
+            type="submit">Subscribe <i class="bi bi-arrow-right"></i></button>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-about"><a href="#home"><img src="images/logo%20(1).svg" alt="MilkyLush"></a>
+        <p>Fresh, local and thoughtfully made dairy goodness, from our farm to your table.</p>
+      </div>
+      <div>
+        <h3>Explore</h3><a href="#about">About Us</a><a href="#services">Farm Services</a><a href="#products">Our
+          Products</a><a href="#journal">Farm Journal</a>
+      </div>
+      <div>
+        <h3>Get In Touch</h3>
+        <p><i class="bi bi-geo-alt"></i> Your farm, your community</p>
+        <p><i class="bi bi-telephone"></i> 123 456 7890</p>
+        <p><i class="bi bi-envelope"></i> info@website.com</p>
+      </div>
+      <div>
+        <h3>Follow Along</h3>
+        <div class="footer-social"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#"
+            aria-label="X"><i class="bi bi-twitter-x"></i></a><a href="#" aria-label="Instagram"><i
+              class="bi bi-instagram"></i></a></div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div>© <span id="year"></span> MilkyLush. All Rights Reserved.</div>
+      <div>Designed by <b><u>Ayush Gupta</u></b> as an independent frontend practice project</div>
+    </div>
+  </footer>
+  <div class="search-overlay" aria-hidden="true"><button class="close-overlay search-close" aria-label="Close search"><i
+        class="bi bi-x-lg"></i></button>
+    <form class="search-form"><input type="search" placeholder="Search this page..."
+        aria-label="Search this page"><button aria-label="Search"><i class="bi bi-search"></i></button></form>
+  </div>
+  <aside class="cart-drawer" aria-hidden="true"><button class="close-overlay cart-close" aria-label="Close cart"><i
+        class="bi bi-x-lg"></i></button>
+    <h2>Your Cart</h2>
+    <p>Your cart is currently empty.</p><a class="button button-green" href="#products">Explore Products</a>
+  </aside>
+  <div class="scrim"></div><button class="back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+
+</html>
